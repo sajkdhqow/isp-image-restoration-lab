@@ -3,3 +3,16 @@ __pycache__/
 .venv/
 *.pyc
 
+# 运行生成物(可由脚本重建)
+output/
+outputs/
+artifacts/
+data/*.raw
+*.npy
+*.log
+
+# 模型权重若过大可改为忽略; 当前 3 个 demo 权重共 ~6MB, 随仓库提交
+# ml/*.pt
+
+# 个人材料(面试准备、简历、生成的 Word/PPT)
+personal/

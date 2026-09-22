@@ -1,0 +1,13 @@
+# 核心流水线与算法
+numpy>=1.24
+opencv-python>=4.8
+scipy>=1.10
+
+# 端到端 / 生成式低照度恢复(CPU 即可训练与推理)
+torch>=2.0
+torchvision>=0.15
+lpips>=0.1.4
+
+# 仅 notebooks 教学入口需要
+scikit-image>=0.21
+notebook
